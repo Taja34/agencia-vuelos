@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4%;
+    padding-right: 4.5%;
+
+    &__backgraund{
+        width: 70vw;
+        border-radius: 30px;
+        height: 85vh;
+        position: absolute;
+        top: 4%;
+        z-index: 1;
+
+    }
+}
+.form{
+    width: 34.2vw;
+    height: max-content;
+    position: relative;
+    z-index: 2;
+    top: 7.5vw;
+left: 7vw;
+    background-color: rgb(245, 241, 245);
+    border-radius: 20px;
+    box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.20);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+    &__title{
+        font-size: 38px;
+        font-weight: 800;
+        width: 75%;
+
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 20px;
+        color: rgb(148, 145, 145);
+    }
+    &__input{
+        
+        &__viaje{
+            display: flex;
+            cursor: pointer;
+            gap: 10px;
+            width: max-content;
+            padding: 5px 6px;
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 5px;
+            background-color: #fff;
+            margin-top: 30px;
+            
+        &__Redondo{
+            padding: 5px 5px;
+          font-weight: 500;
+            border-radius: 5px;
+        }
+        &__Sencillo{
+            padding: 5px;
+            font-weight: 500;
+           
+        }
+        }
+       
+
+    }
+&__cont{
+    &__inputs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        &__origen{
+            text-align: center;
+            padding-top: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 15vw;
+            height: max-content;
+            padding-bottom: 15px;
+            background-color: #fff;
+            border: 1px solid rgb(216, 211, 211);
+            &__title{
+                font-size: 30px;
+                font-weight: 500;
+            }
+            &__text{
+                margin-top: 10px;
+                color: rgb(148, 145, 145);
+            }
+        }
+        &__fecha{
+            width: 15vw;
+            height: max-content;
+            padding: 12px 10px;
+            background-color: #fff;
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &__img{
+width: 30px;
+            }
+            &__salida{
+                color: rgb(148, 145, 145);
+            }
+             &__fecha{
+                margin-top: 3px;
+                font-size: 16px;
+                font-weight: 500;
+               
+                    &__img{
+                        width: 30px;
+                    
+                }
+             }
+        }
+
+&__pasajeros{
+    width: 15vw;
+            height: max-content;
+            padding: 12px 10px;
+            background-color: #fff;
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__img{
+    width: 30px;
+}
+}
+
+    }
+
+
+
+  
+}
+&__button{
+    width: 31vw;
+    height: 6vh;
+    border-radius: 30px;
+    background-color: #9B2577;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   gap: 10px;
+
+    &__img{
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(111%) contrast(101%);
+    }
+}
+
+}
+.color{
+    background-color: #9B2577;
+            border-radius: 10px;
+    color: #fff;
+}
+.cont{
+    margin-top: 10vw;
+    margin-left: 7vw;
+    
+
+    &__title{
+        font-size: 38px;
+        font-weight: 800;
+        
+    }
+    &__recuadro{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding:30px;
+        font-size: 18px;
+        width: 87.5vw;
+        height:14vh ;
+        border-radius: 20px;
+        box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.39);
+
+        &__Pdiv{
+            &__img{
+                margin-top: 10px;
+                width: 400px;
+            }
+        }
+        &__Sdiv{
+            &__img{
+                margin-top: 10px;
+                width: 400px;   
+            }
+        }
+    }
+}
+
+.footer{
+    margin-top: 6vw;
+    margin-left: 7vw;
+    margin-bottom: 80px;
+    &__title{
+        font-size: 38px;
+        font-weight: 800;
+    }
+&__cont{
+    margin-top: 20px;
+    width: 90vw;
+    height: 300px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    &__card{
+        text-align: center;
+        width: 281px;
+        height: 300px;
+        box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.39);
+border-radius: 20px;
+color: rgb(148, 145, 145);
+padding-left: 50px;
+padding-right: 50px;
+
+
+&__img{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+&__title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+    }
+} 
+}
+.backgraund{
+    width: 99vw;
+    height: 100vh;
+    background-color: #0000009e;
+    position: absolute;
+    z-index: 3;
+}
+.hidden{
+    display: none;
+}
+.InputDestino{
+    padding: 20px ;
+    position: absolute;
+    z-index: 10;
+    font-size: 1vw;
+    width: 400px;
+    top: 30vh;
+    left: 50vw;
+    background-color: #fff;
+    height: max-content;
+    text-align: center;
+    margin-left: -250px;
+    border-radius: 20px;
+    
+    &__title{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    &__input{
+        width: 100%;
+        display: flex;
+        border: 1px solid rgb(216, 211, 211);
+        padding: 10px;
+    }
+    &__list{
+        width: 100%;
+        display: flex;
+        border: 1px solid rgb(216, 211, 211);
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+.inputBusqueda{
+    border: none;
+    width: 100%;
+}
+.InputSalida{
+    padding: 20px ;
+    position: absolute;
+    z-index: 10;
+    font-size: 1vw;
+    width: 400px;
+    top: 30vh;
+    left: 50vw;
+    background-color: #fff;
+    height: max-content;
+    text-align: center;
+    margin-left: -250px;
+    border-radius: 20px;
+    &__tilte{
+        width: 100%;
+        font-size: 30px;
+        text-align: justify;
+        height: max-content;
+       
+        border-bottom: 1px solid rgb(216, 211, 211);
+    }
+    &__subtitle{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+.salida{
+    border: none;
+}
