@@ -3,12 +3,12 @@ import './Main.scss'
 import Form from './form/Form'
 import TarjetaD from '../icons/TarjetaD.png'
 import TarjetaE from '../icons/TarjetaE.png'
-const Main = ({vuelos}) => {
+const Main = () => {
 
-  console.log(vuelos)
+
   return (
     <main>
-    <Form vuelos={vuelos}/>
+    <Form />
     <div className='main'> <img
     src='https://img.freepik.com/foto-gratis/ala-avion-volando-encima-nubes_1232-1561.jpg?w=2000' className='main__backgraund'/></div>
     

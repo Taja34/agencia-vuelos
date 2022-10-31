@@ -91,6 +91,7 @@ left: 7vw;
             padding-bottom: 15px;
             background-color: #fff;
             border: 1px solid rgb(216, 211, 211);
+            font-size: 20px;
             &__title{
                 font-size: 30px;
                 font-weight: 500;
@@ -162,7 +163,7 @@ width: 30px;
    align-items: center;
    color: #fff;
    gap: 10px;
-
+cursor: pointer;
     &__img{
         filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(111%) contrast(101%);
     }
@@ -327,3 +328,360 @@ padding-right: 50px;
 .salida{
     border: none;
 }
+.count{
+    align-items: center;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid #898989;
+    padding: 5px 10px;
+    div{
+        padding: 2px 5px;
+        border: 1px solid #000000;
+border-radius: 10px;
+background-color: #9B2577;
+font-size: 20px;
+color: #fff;
+    }
+&__title{
+    font-size: 18px;
+    text-align: center;
+}
+}
+.contVuelos{
+display: flex;
+background-color: #f3f2f2;
+padding-bottom: 50px;
+&__vuelos{
+    width: 70vw;
+    height: max-content;
+    padding: 4vw;
+  &__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__btn{
+        padding: 15px 50px;
+        border-radius: 10vw;
+        border: 2px solid #9B2577;
+color: #9B2577;
+font-weight: 500;    
+    }
+  }
+  &__subtitulo{
+    font-weight: 500;
+    font-size: 25px;
+  } 
+  &__text{
+    font-size: 18px;
+    color: #898989;
+  }
+  &__seleccion{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #000000;
+    font-weight: 600;
+  } 
+  &__cont{
+    padding: 15px 40px;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 20px;
+    height: max-content;
+    
+    border-radius: 10px;
+    box-shadow: 1px 6px 12px -2px rgba(0,0,0,0.39);
+   &__time{
+    width: 15vw;
+    font-weight: 500;
+    font-size: 30px;
+   }
+   &__timefly{
+    
+    color: #898989;
+    width: 10vw;
+   }
+&__equipaje{
+    align-items: center;
+    text-align: center;
+    padding: 8px 30px;
+    border: 1px solid #898989;
+    &:active{
+        background-color: #9B2577;
+        color: #fff;
+    img { filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(253deg) brightness(106%) contrast(101%);
+       
+    }}
+
+}  
+}
+
+
+}
+&__reservacion{
+width: 30vw;
+padding-top: 4.5vw;
+&__title{
+margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+&__infoVuelo{
+    margin-top: 15px;
+    width: 20vw;
+    padding: 10px 20px;
+    height: max-content;
+    background-color: #fff;
+    div{
+        margin-top: 10px;
+    }
+    &__pasajeros{
+display: flex;
+justify-content: space-between;
+font-weight: 500;
+    }
+}
+}
+}
+.default{
+
+   
+        td{
+            text-align: center;
+            width: 5vw;
+            height: 50px;
+            border: 1px solid black;
+background-color: #fff;
+        }
+    
+}
+.tituloasientos{
+    width: 100%;
+    text-align: center;
+}
+.default0{
+    td{
+        height: 30px;
+        text-align: center;
+
+
+    }
+}
+
+.desocupado{
+    border-radius: 10px;  
+    background-color: #898989;
+}
+.vacio{
+    padding-top: 15px;
+align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+.asientosVuelo{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    width: 40vw;
+    article{
+        text-align: center;
+        width: 5vw;
+        height: 50px;
+     ;
+    }
+}
+.ocupado{
+    border-radius: 10px;
+    border: 2px solid #9B2577;
+    background-color: #fff;
+   
+}
+.visitado{
+    background-color: #9B2577;
+}
+.login{
+    width: 20vw;
+    height: 500px;
+    position: absolute;
+    left: 42vw;
+    margin: auto;
+
+}
+.email{
+    display: flex;
+    
+}
+
+.corral{   
+   
+top: 10vw;
+margin: 0 auto;
+
+width: 460px;
+position: relative;
+border: 1px solid rgb(211, 205, 205);
+text-align: center;
+border-radius: 10px;
+padding: 10px 10px;
+input{
+border-radius: 10px;
+border: 1px solid rgb(117, 114, 114);
+  padding:10px 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+button{
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #0070ba;
+    width: 100%;
+    min-height: 44px;
+    padding: 12px 32px;
+    border: 0;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+}
+.rayita{
+    width: 5vw;
+    border:1px solid #000000;
+    height: 1px;
+}
+.mede{
+    &__title{
+        font-size: 30px;
+    }
+    &__fecha{
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}
+.contMede{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total{
+    font-weight: 500;
+}
+.paypal{
+    padding: 20px 10px;
+    background-color: #9B2577;
+color: #fff;
+text-align: center;
+margin-top: 10px;
+font-size: 20px;
+    width: 20vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    align-items: center;
+cursor: pointer;
+}
+.paypalPequeña{
+    width: 30px;
+    filter: invert(100%) sepia(8%) saturate(217%) hue-rotate(245deg) brightness(115%) contrast(100%);
+}
+@media (max-width: 375px) {
+    .main__backgraund{
+        width: 375px;
+        border-radius: 0;
+        top: 0px;
+        
+        left: 0px;
+object-fit: cover;
+height: 250px;
+   
+
+    }
+    .form{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        &__title{
+            font-size: 30px;
+        }
+    }
+    .form__cont__inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    .form__cont__inputs__origen ,.form__cont__inputs__fecha, .form__cont__inputs__pasajeros, .form__button{
+        width: 100%;
+        
+    }
+    .cont__recuadro{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        img{
+            width: 250px;
+        }
+    }
+    .cont__title{
+        font-size: 30px;
+    }
+    .footer__title{
+        font-size: 30px;
+    }
+    .footer__cont{
+ 
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    .footer__cont__card{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .footer{
+        height: max-content;
+    }
+    #root{
+        height: max-content;
+    }
+    .footer__cont{
+        height: max-content;
+        width: 92%;
+    }
+    .form__title{
+        width: 95%;
+    }
+    .contVuelos{
+        flex-direction: column;
+        &__vuelos{
+            width: 100%;
+        }
+    }
+    .contVuelos__vuelos__cont{
+        flex-direction: column;
+    }
+    
+  }
