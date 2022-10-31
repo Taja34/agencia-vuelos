@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import avion from '../../icons/plane.svg'
-import { DateTime } from 'luxon'
+import { DateTime } from 'luxon.js'
 import { getVuelos } from '../../service/vuelos'
 import { useNavigate } from 'react-router-dom'
 import { AppContext } from '../../routes/routes';
