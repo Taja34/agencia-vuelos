@@ -207,7 +207,7 @@ const desplegable2=()=>{
 
             <img
               src={avion} className='form__button__img' />
-            <p>Buscar vuelos</p>
+            <p>Buscar Vuelos</p>
           </div>
 
         </form>
